@@ -1,0 +1,13 @@
+environments:
+  hw1:
+    name: "Hello World 1"
+    vcs:
+      type: opentofu
+      repository: https://github.com/dcelasun/env0-demo.git
+      path: aws/hello-world
+  hw2:
+    name: "Hello World 2"
+    vcs:
+      type: opentofu
+      repository: https://github.com/dcelasun/env0-demo.git
+      path: aws/hello-world2
